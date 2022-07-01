@@ -1,0 +1,78 @@
+/* Low laptop */
+@media (max-width: 1600px) {
+    .banner{
+        padding: 0 72px;
+    }
+
+    .banner__info{
+        margin-left: 0;
+    }
+    
+}
+/* Table and mobile */
+@media (max-width: 1199px){
+    /* Banner */
+    .banner{
+        padding: 0 32px;
+    }
+    .banner__title{
+        font-size: 32px;
+    }
+
+    .banner__img{
+        width: 400px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 900px) and (max-width: 1199px){
+    /* Header */
+    .header-nav__item{
+        padding: 0 7px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 899px){
+    /* Header */
+    .header{
+        height: 60px;
+    }
+
+    .header__nav-menu{
+        display: flex;
+    }
+
+    .header__logo{
+        margin-right: 0;
+    }
+
+    .header-nav__list{
+        display: none;
+    }
+
+    .header-nav-action{
+        display: none;
+    }
+
+    .header__action{
+        display: block;
+    }
+
+    /* Banner */
+    .banner{
+        flex-direction: column-reverse;
+        padding: 20px 40px;
+        transform: translateY(60px);
+        text-align: center;
+    }
+
+    .banner__img-copyright{
+        text-align: center;
+    }
+
+    .banner__title{
+        font-size: 24px;
+    }
+}

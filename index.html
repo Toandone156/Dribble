@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dribble</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="header">
+        <label for="open-mobile-menu" class="header__nav-menu">
+            <ion-icon name="menu-outline"></ion-icon>
+        </label>
+
+        <nav class="header-nav">
+            <div class="header__logo">
+                <img src="./assets/image/Dribbble_logo_black.png" alt="Dribble: The comunity of graphic design" class="header__logo-img">
+            </div>
+            <ul class="header-nav__list">
+                <li class="header-nav__item header-nav__item--menu1">
+                    <span class="header-navbar__item-title">
+                        Inspiration
+                    </span>
+                    <div class="header-navbar__menu">
+                        <ul class="header-navbar__menu-list">
+                            <li class="header-navbar__menu-item header-navbar__menu-item--purple">
+                                <div class="header-navbar__menu-item-container">
+                                    <div class="header-navbar__menu-item-icon">
+                                        <ion-icon name="grid-outline"></ion-icon>
+                                    </div>
+                                    <div class="header-navbar__menu-item-info">
+                                        <h3 class="header-navbar__menu-item-title">Explore Design Work</h3>
+                                        <span class="header-navbar__menu-item-desc">Trending designs to inspire you</span>
+                                    </div>
+                                </div>
+                                <div class="header-navbar__menu-item-arrow">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </div>
+                            </li>
+                            <li class="header-navbar__menu-item header-navbar__menu-item--pink">
+                                <div class="header-navbar__menu-item-container">
+                                    <div class="header-navbar__menu-item-icon">
+                                        <ion-icon name="heart-outline"></ion-icon>
+                                    </div>
+                                    <div class="header-navbar__menu-item-info">
+                                        <h3 class="header-navbar__menu-item-title">New & Noteworthy</h3>
+                                        <span class="header-navbar__menu-item-desc">Up-and-coming designers</span>
+                                    </div>
+                                </div>
+                                <div class="header-navbar__menu-item-arrow">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </div>
+                            </li>
+                            <li class="header-navbar__menu-item header-navbar__menu-item--green">
+                                <div class="header-navbar__menu-item-container">
+                                    <div class="header-navbar__menu-item-icon">
+                                        <ion-icon name="copy-outline"></ion-icon>
+                                    </div>
+                                    <div class="header-navbar__menu-item-info">
+                                        <h3 class="header-navbar__menu-item-title">Playoffs</h3>
+                                        <span class="header-navbar__menu-item-desc">Work designers are riffing on</span>
+                                    </div>
+                                </div>
+                                <div class="header-navbar__menu-item-arrow">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </div>
+                            </li>
+                            <li class="header-navbar__menu-item header-navbar__menu-item--purple">
+                                <div class="header-navbar__menu-item-container">
+                                    <div class="header-navbar__menu-item-icon">
+                                        <ion-icon name="newspaper-outline"></ion-icon>
+                                    </div>
+                                    <div class="header-navbar__menu-item-info">
+                                        <h3 class="header-navbar__menu-item-title">Blog</h3>
+                                        <span class="header-navbar__menu-item-desc">Interviews, tutorials and more</span>
+                                    </div>
+                                </div>
+                                <div class="header-navbar__menu-item-arrow">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="header-navbar__menu-second-list">
+                            <h3 class="header-navbar__menu-title">Browse Categories</h3>
+                            <li class="header-navbar__menu-second-title">Animation</li>
+                            <li class="header-navbar__menu-second-title">Branding</li>
+                            <li class="header-navbar__menu-second-title">Illustration</li>
+                            <li class="header-navbar__menu-second-title">Mobile</li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="header-nav__item">
+                    <span class="header-navbar__item-title">
+                        Find Work
+                    </span>
+                </li>
+                <li class="header-nav__item">
+                    <span class="header-navbar__item-title">
+                        Learn Design
+                    </span>
+                </li>
+                <li class="header-nav__item">
+                    <span class="header-navbar__item-title">
+                        Go Pro
+                    </span>
+                </li>
+                <li class="header-nav__item">
+                    <span class="header-navbar__item-title">
+                        Marketplace
+                    </span>
+                </li>
+                <li class="header-nav__item">
+                    <span class="header-navbar__item-title">
+                        Hire Designers
+                    </span>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="header-nav-action">
+            <ul class="header-nav-action__list">
+                <li class="header-nav-action__item">
+                    <ion-icon name="search-outline"></ion-icon>
+                </li>
+                <li class="header-nav-action__item">
+                    <span class="header-nav-action__action">Sign in</span>
+                </li>
+                <li class="header-nav-action__item">
+                    <span class="header-nav-action__action">/</span>
+                </li>
+                <li class="header-nav-action__item">
+                    <span class="header-nav-action__action">Sign up</span>
+                </li>
+                <li class="header-nav-action__item">
+                    <button class="btn">Start a free project</button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header__action">
+            <a href="" class="header__action-text">Sign in</a>
+        </div>
+    </div>
+    
+    <input type="checkbox" name="dropmbmenu" id="open-mobile-menu">
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+                <form action="search" class="mobile-menu__search-wrap">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="text" class="mobile-menu__search" placeholder="Search">
+                </form>
+            </li>
+            <li class="mobile-menu__item">
+                <input type="checkbox" name="dropsubmenu" id="open-submenu1">
+                <label for="open-submenu1" class="mobile-menu__title-wrap">
+                    <span class="mobile-menu__title">Inspiration</span>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </label>
+                <ul class="mobile-menu__submenu">
+                    <li class="mobile-menu__submenu-item">Explore Design Work</li>
+                    <li class="mobile-menu__submenu-item">New & Noteworthy</li>
+                    <li class="mobile-menu__submenu-item">Playoffs</li>
+                    <li class="mobile-menu__submenu-item">Blog</li>
+                    <li class="mobile-menu__submenu-item">Weekly Warmup</li>
+                </ul>
+            </li>
+            <li class="mobile-menu__item">
+                <span class="mobile-menu__title">Find Work</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </li>
+            <li class="mobile-menu__item">
+                <span class="mobile-menu__title">Learn Design</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </li>
+            <li class="mobile-menu__item">
+                <span class="mobile-menu__title">Go Pro</span>
+            </li>
+            <li class="mobile-menu__item">
+                <span class="mobile-menu__title">Marketplace</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </li>
+            <li class="mobile-menu__item">
+                <span class="mobile-menu__title">Hire Designers</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <div class="banner__info">
+            <h1 class="banner__title">Discover the world’s top designers & creatives</h1>
+            <p class="banner__desc">Dribbble is the leading destination to find & showcase creative work and home to the world's best design professionals.</p>
+            <button class="btn btn--no-margin">Sign up</button>
+        </div>
+
+        <div class="banner__short-content">
+            <img src="./assets/image/banner-img.png" alt="" class="banner__img">
+            <span class="banner__img-copyright">
+                Art by
+                <a href="" class="banner__img-copyright-name">Romain Briaux</a>
+            </span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container__header">
+            <div class="box-drop container__filter-views">
+                <label for="open-filter-views-menu" class="box-drop__btn container__filter-views-btn">
+                    <span class="box-drop__text container__filter-views-text">Popular</span>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </label>
+
+                <input type="checkbox" name="filter-menu" id="open-filter-views-menu">
+                
+                <ul class="box-drop__menu container__filter-views-menu">
+                    <li class="box-drop__item box-drop__item--active container__filter-views-item container__filter-views-item--active">Popular</li>
+                    <li class="box-drop__item container__filter-views-item">New & Noteworthy</li>
+                    <li class="separate"></li>
+                    <li class="box-drop__item container__filter-views-item">Goods for Sale</li>
+                </ul>
+            </div>
+
+            <ul class="container__category">
+                <li class="container__category-item container__category-item--active">All</li>
+                <li class="container__category-item">Animation</li>
+                <li class="container__category-item">Branding</li>
+                <li class="container__category-item">Illustration</li>
+                <li class="container__category-item">Mobile</li>
+                <li class="container__category-item">Print</li>
+                <li class="container__category-item">Product Design</li>
+                <li class="container__category-item">Typography</li>
+                <li class="container__category-item">Web Design</li>
+            </ul>
+
+            <div class="container__filter-setting">
+                <label for="open-filter-setting" class="container__filter-setting-btn">
+                    <ion-icon name="filter-outline"></ion-icon>
+                    <span class="container__filter-setting-text">Filter</span>
+                </label>
+            </div>
+        </div>
+
+        <input type="checkbox" name="filter-menu" id="open-filter-setting">
+        <div class="filter-setting__menu-wrap">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-2-4 m-2-4 c-12">
+                        <div class="filter-setting__item-title">Search</div>
+                        <form action="search" class="filter-setting__search-wrap">
+                            <ion-icon name="search-outline"></ion-icon>
+                            <input type="text" class="filter-setting__search">
+                        </form>
+                    </div>
+                    <div class="col l-2-4 m-2-4 c-12">
+                        <div class="filter-setting__item-title">Color</div>
+                        <form action="search" class="filter-setting__search-wrap">
+                            <ion-icon name="color-palette-outline"></ion-icon>
+                            <input type="text" class="filter-setting__search" placeholder="Enter hex or select">
+                        </form>
+                    </div>
+                    <div class="col l-2-4 m-2-4 c-12">
+                        <div class="filter-setting__item-title">Timeframe</div>
+                        <div class="box-drop">
+                            <label for="open-timeframe-menu" class="box-drop__btn">
+                                <span class="box-drop__text">Now</span>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </label>
+            
+                            <input type="checkbox" name="filter-menu" id="open-timeframe-menu">
+                            
+                            <ul class="box-drop__menu filter-setting__item-menu">
+                                <li class="box-drop__item box-drop__item--active">Now</li>
+                                <li class="box-drop__item">This Past Week</li>
+                                <li class="box-drop__item">This Past Month</li>
+                                <li class="box-drop__item">This Past Year</li>
+                                <li class="box-drop__item">All Time</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-2-4 c-12">
+                        <div class="filter-setting__item-title">Made With</div>
+                        <div class="box-drop">
+                            <label for="open-madewith-menu" class="box-drop__btn">
+                                <span class="box-drop__text">All Apps</span>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </label>
+            
+                            <input type="checkbox" name="filter-menu" id="open-madewith-menu">
+                            
+                            <ul class="box-drop__menu filter-setting__item-menu">
+                                <li class="box-drop__item box-drop__item--active">All Apps</li>
+                                <li class="box-drop__item">Adobe XD</li>
+                                <li class="box-drop__item">Figma</li>
+                                <li class="box-drop__item">Sketch</li>
+                                <li class="box-drop__item">Unsplash</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 m-2-4 c-12">
+                        <div class="filter-setting__item-title">Downloads</div>
+                        <div class="box-drop">
+                            <label for="open-downloads-menu" class="box-drop__btn">
+                                <span class="box-drop__text">All Shots</span>
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </label>
+            
+                            <input type="checkbox" name="filter-menu" id="open-downloads-menu">
+                            
+                            <ul class="box-drop__menu filter-setting__item-menu">
+                                <li class="box-drop__item box-drop__item--active">All Shots</li>
+                                <li class="box-drop__item">Adobe Illustrator</li>
+                                <li class="box-drop__item">Adobe Photoshop</li>
+                                <li class="box-drop__item">Adobe XD</li>
+                                <li class="box-drop__item">Figma</li>
+                                <li class="box-drop__item">Invision Studio</li>
+                                <li class="box-drop__item">Sketch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__product">
+            <div class="grid">
+                <div class="row">
+                    <div class="col l-3 product__item">
+                        <div class="product__item-wrap" style="background-image: url(./assets/image/poster.png);">
+                            <div class="product__item-extra">
+                                <ion-icon name="images"></ion-icon>
+                            </div>
+                            <div class="product__item-info">
+                                <span class="product__text">Afternoon Tea</span>
+                                <ul class="product__action-list">
+                                    <li class="product__action-btn">
+                                        <ion-icon name="bag-add"></ion-icon>
+                                    </li>
+                                    <li class="product__action-btn">
+                                        <ion-icon name="heart"></ion-icon>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product__info">
+                            <div class="product__info-author">
+                                <img src="./assets/image/avatar.jpg" alt="avatar">
+                                <span class="product__info-author-name">The Toan</span>
+                            </div>
+
+                            <div class="product__info-action">
+                                <ul class="product__info-action-list">
+                                    <li class="product__info-action-item">
+                                        <ion-icon name="heart"></ion-icon>
+                                        <div class="product__info-number">200</div>
+                                    </li>
+
+                                    <li class="product__info-action-item">
+                                        <ion-icon name="eye"></ion-icon>
+                                        <div class="product__info-number">1k</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row container__footer-row">
+                    <div class="container__footer">
+                        <button class="btn container__footer-btn">Sign up to continue</button>
+                        <span class="container__footer-text">or sign in</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
